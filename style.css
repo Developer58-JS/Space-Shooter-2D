@@ -1,0 +1,12 @@
+body {
+    margin: 0;
+}
+
+.scoreboard {
+    position: fixed;
+    color: white;
+    font-size: 30px;
+    margin-left: 2;
+    margin-top: 2;
+    user-select: none;
+}

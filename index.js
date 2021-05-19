@@ -112,8 +112,8 @@ function spawnEnemies() {
         var color = `hsl(${Math.random() * 360}, 50%, 50%)`;
         var angle = Math.atan2(canvas.height / 2 - y, canvas.width / 2 - x);
         var velocity = {
-            x: Math.cos(angle),
-            y: Math.sin(angle)
+            x: Math.cos(angle) * 4,
+            y: Math.sin(angle) * 4
         }
        enemies.push(new Enemy(x, y, radius, color, velocity));
     }, 1000)
